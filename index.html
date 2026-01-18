@@ -7,11 +7,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <header class="w-100% h-auto bg-amber-50">
+    <header class="w-full max-w-[1920px] h-auto bg-amber-50 mx-auto px-4">
         <nav class="mb-[102px]">
-            <div class="flex justify-between w-[1440px] mx-auto items-center pt-[50px]">
-                <div class="font-bold text-[45px]"><h1>G3 Architects</h1></div>
-                <div class="flex gap-[50px] text-[18px] font-medium">
+            <div class="flex flex-col md:flex-row justify-between max-w-[1440px] w-full mx-auto items-center pt-[50px]">
+                <div class="font-bold text-[35px] md:text-[45px]"><h1>G3 Architects</h1></div>
+                <div class="flex gap-[50px]  text-[12px] md:text-[18px] font-medium">
                     <div class=""><a href="">Home</a></div>
                     <div class=""><a href="">About</a></div>
                     <div class=""><a href="">Contact Us</a></div>
@@ -19,19 +19,19 @@
                 </div>
             </div>
         </nav>
-        <div class="text-center w-[862px] mx-auto mb-[32px]">
-            <h1 class="text-[64px] font-bold">Brand New <span class="block">Group of Architects</span></h1>
+        <div class="text-center w-full max-w-[862px] mx-auto mb-[32px]">
+            <h1 class="text-[32px] md:text-[64px] font-bold">Brand New <span class="block">Group of Architects</span></h1>
             <p class="text-[16px] font-normal mb-[32px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
-            <button class="w-[180px] h-[64px] bg-amber-500 rounded-md text-[20px] font-semibold text-white mb-[35px]">Explore More</button>
+            <button class="w-[100px] md:w-[180px] md:h-[64px] h-[35px] bg-amber-500 rounded-md md:text-[20px] text-[15px] font-semibold text-white mb-[35px] hover:cursor-pointer">Explore More</button>
         </div>
-        <div class="w-[1440px] mx-auto pb-[45px] mb-[85px]">
+        <div class="w-full max-w-[1440px] mx-auto pb-[45px] mb-[85px]">
             <img src="images/banner.png" alt="Three architect standing together">
         </div>
     </header>
 
     <main>
-        <div class="flex w-[1440px] mx-auto items-center mb-[130px]"> 
-            <div class="grid grid-cols-2 gap-[24px] m-auto">
+        <div class="flex flex-col md:flex-row w-full max-w-[1440px] mx-auto items-center mb-[130px]"> 
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-[24px] m-auto">
                 <div>
                     <img src="images/team1.png" alt="team1">
                 </div>
@@ -45,10 +45,10 @@
                     <img src="images/team4.png" alt="">
                 </div>
             </div>
-            <div class="w-[537px] m-auto ">
-                <h1 class="text-[45px] font-medium text-gray-500 mb-[24px]">Quick list <span class="text-black font-bold">of Our</span> <span class="text-amber-500 font-bold block">Features</span></h1>
+            <div class="w-full max-w-[537px] m-auto text-center md:text-left md:m-[25px] ">
+                <h1 class="md:text-[45px] text-[28px] font-medium text-gray-500 mb-[24px]">Quick list <span class="text-black font-bold">of Our</span> <span class="text-amber-500 font-bold block">Features</span></h1>
                 <p class="text-[16px] text-gray-500 mb-[32px]">There are many variations  of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
-                <button class="w-[180px] h-[64px] bg-amber-500 rounded-md text-[20px] font-semibold text-white mb-[35px]">Explore More</button>
+                <button class="w-[100px md:w-[180px] h-[35px] md:h-[64px] bg-amber-500 rounded-md text-[15px] md:text-[20px] font-semibold text-white mb-[35px]">Explore More</button>
             </div>
         </div>
 
